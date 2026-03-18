@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    background:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    padding:40px;
+}
+.fcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.fcolumns{
+    display: flex;
+    gap:60px;
+
+}
+.columns{
+    display: flex;
+    flex-direction: column;
+}
+
+.columns h4{
+    color:rgb(0, 0, 0);
+    margin-bottom: 15px;
+    margin:10px;
+}
+
+.columns a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    margin: 10px;
+
+}
+.columns a:hover{
+    color:blue;
+}
+
+.news{
+    width:300px;
+
+}
+.news h4{
+    color:rgb(0, 0, 0);
+    margin:10px;
+}
+.news p{
+    margin: 10px;
+}
+.form{
+    display: flex;
+}
+.form input{
+    border:none;
+    outline:none;
+    padding:10px;
+}
+.form button{
+    background: #2563eb;
+    color:white;
+    cursor:pointer;
+    transition: 0.5s;
+    box-shadow: #1d4ed8;
+    border-radius: 25%;
+}
+.form button:hover{
+    background: #1d4ed8;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social{
+    display: flex;
+}
+.social span{
+    cursor:pointer;
+    margin-left:10px;
+    display:flex;
+}
+.social span:hover{
+    color:green;
+}
